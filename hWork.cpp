@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void interval(double* a, double* b, double *dist, double* byte_dist) {
+void interval(double* a, double* b, double* dist, double* byte_dist) {
 
     *dist = *b - *a;
     *byte_dist = (char*)&b - (char*)&a;
