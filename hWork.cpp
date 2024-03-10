@@ -9,8 +9,8 @@ void interval(double* a, double* b, double* dist, double* byte_dist) {
 
 int main() {
 
-    double a = 51.6;
-    double b = 255.4;
+    double a = 51;
+    double b = 255;
     double res = 0;
     double byte_res = 0; 
 
